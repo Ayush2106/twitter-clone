@@ -1,0 +1,23 @@
+body{
+    --twitter-color:#50b7f5;
+    --twitter-background:#e6ecf0;
+}
+.App{
+   
+    /* margin: auto; */
+   display: flex;
+   justify-content: center;
+   /* background-color: blueviolet; */
+}
+/* .App .sidebar{
+    flex: 0.3;
+} */
+/* .App .widget{
+    flex: 0.3;
+    background-color: cadetblue;
+}  */
+.App .newsfeed{
+    /* flex: 0.4; */
+    border-right: 2px solid var(--twitter-background);
+
+} 

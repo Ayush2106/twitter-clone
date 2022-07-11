@@ -1,0 +1,7 @@
+.logos{
+    display: flex;
+    width: 50%;
+}
+.logos .MuiSvgIcon-root{
+    margin: auto;
+}

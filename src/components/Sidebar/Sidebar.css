@@ -1,0 +1,31 @@
+/* .Sidebar{
+    /* width: 16%; */
+    .Sidebar{
+        width: 20vw;
+        height: 100vh;
+        border-right: 2px solid var(--twitter-background);
+    }
+
+.twitter_icon{
+ padding-top: 10%;
+margin-left: 5%;
+color: var(--twitter-color);
+}
+.sidebar__tweet{
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: white !important;
+    text-transform: inherit !important;
+    border-radius: 30px!important;
+    height: 50px !important;
+    margin-top: 20px !important;
+}
+.account{
+    margin-top: 20px;
+    display: flex;
+}
+.account > img{
+    width: 25%;
+    margin-right: 10px;
+    border-radius: 5rem;
+}

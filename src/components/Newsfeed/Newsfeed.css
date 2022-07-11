@@ -1,0 +1,80 @@
+.feed{
+    min-width: fit-content;
+    overflow-y: scroll;
+    height: 100vh;
+}
+.feed::-webkit-scrollbar{
+    display: none;
+}
+.feed_header{
+    font-size: larger;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border-right: 1px solid var(--twitter-background);
+}
+.feed>img {
+    width: 100%;
+    margin-left: auto;
+}
+.account{
+    margin-top: 20px;
+    display: flex;
+}
+.account > img{
+    width: 10%;
+    margin-right: 10px;
+    border-radius: 5rem;
+}
+.account>input{
+    border: none;
+    width: 100%;
+}
+.account > p{
+    margin-top: 20px;
+}
+.logoandbtn{
+    display: flex;
+    align-items: center;
+}
+.tweet_logos{
+    flex: 0.5;
+    /* margin-left: 12%; */
+    margin-top: 20px;
+}
+.tweet_logos .MuiSvgIcon-root{
+    padding: 15px;
+}
+.tweet_logos .MuiSvgIcon-root:hover{
+    cursor: pointer;
+    background-color: var(--twitter-color);
+    border: 5rem;
+}
+.button{
+    flex: 0.5;
+    text-align: right;
+}
+
+.button >Button:hover{
+    cursor: pointer;
+    width: 150px;
+}
+/* .button .sidebar__tweet{
+margin-left: 50%;
+
+} */
+
+.sidebar__tweet{
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: white !important;
+    text-transform: inherit !important;
+    border-radius: 30px!important;
+    height: 50px !important;
+    width: 100px;
+}
+.TweetBox{
+    border-bottom: 2px solid var(--twitter-background);
+}
